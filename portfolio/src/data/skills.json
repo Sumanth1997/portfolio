@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "skills": [
+        {"title": "Python", "imageSrc": "assets/skills/python.png"},
+        {"title": "Java", "imageSrc": "assets/skills/java.png"},
+        {"title": "Dart", "imageSrc": "assets/skills/dart.png"},
+        {"title": "C", "imageSrc": "assets/skills/c-prog.png"},
+        {"title": "C#", "imageSrc": "assets/skills/c-sharp.png"}
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "skills": [
+        {"title": "Spring", "imageSrc": "assets/skills/spring.png"},
+        {"title": ".NET Framework", "imageSrc": "assets/skills/net-frame.png"},
+        {"title": "TensorFlow", "imageSrc": "assets/skills/tensorflow.png"},
+        {"title": "PyTorch", "imageSrc": "assets/skills/pytorch.png"},
+        {"title": "scikit-learn", "imageSrc": "assets/skills/scikit.png"},
+        {"title": "Keras", "imageSrc": "assets/skills/keras.png"},
+        {"title": "Hugging Face", "imageSrc": "assets/skills/hf.png"},
+        {"title": "Pandas", "imageSrc": "assets/skills/pandas.png"},
+        {"title": "NumPy", "imageSrc": "assets/skills/numpy.png"}
+      ]
+    },
+    {
+      "name": "Mobile/Web Development",
+      "skills": [
+        {"title": "Flutter", "imageSrc": "assets/skills/flutter.png"},
+        {"title": "React.js", "imageSrc": "assets/skills/react.png"},
+        {"title": "Node.js", "imageSrc": "assets/skills/node.png"},
+        {"title": "HTML", "imageSrc": "assets/skills/html.png"},
+        {"title": "Sass", "imageSrc": "assets/skills/sass.png"},
+        {"title": "Mocha", "imageSrc": "assets/skills/mocha.png"},
+        {"title": "Cypress", "imageSrc": "assets/skills/cypress.png"},
+        {"title": "Express.js", "imageSrc": "assets/skills/express.png"},
+        {"title": "Vite", "imageSrc": "assets/skills/vite.png"}
+      ]
+    },
+    {
+      "name": "Tools and Technologies",
+      "skills": [
+        {"title": "Firebase", "imageSrc": "assets/skills/firebase.png"},
+        {"title": "AWS S3", "imageSrc": "assets/skills/s3.png"},
+        {"title": "Microsoft Azure AD", "imageSrc": "assets/skills/azure.png"},
+        {"title": "Vercel", "imageSrc": "assets/skills/vercel.png"},
+        {"title": "Git", "imageSrc": "assets/skills/git.png"},
+        {"title": "Airtable", "imageSrc": "assets/skills/airtable.png"},
+        {"title": "IBM MQ", "imageSrc": "assets/skills/ibm-mq.png"}
+      ]
+    },
+    {
+      "name": "Databases",
+      "skills": [
+        {"title": "SQL", "imageSrc": "assets/skills/sql.png"},
+        {"title": "MySQL", "imageSrc": "assets/skills/mysql.png"},
+        {"title": "PostgreSQL", "imageSrc": "assets/skills/postgresql.png"},
+        {"title": "MongoDB", "imageSrc": "assets/skills/mongo.png"},
+        {"title": "NoSQL", "imageSrc": "assets/skills/nosql.png"}
+      ]
+    },
+    {
+      "name": "Other Skills",
+      "skills": [
+        {"title": "Google Cloud", "imageSrc": "assets/skills/gcp.png"},
+        {"title": "Agile Development", "imageSrc": "assets/skills/agile.png"},
+        {"title": "Financial Services", "imageSrc": "assets/skills/fs.png"}, 
+        {"title": "Unix", "imageSrc": "assets/skills/unix.png"},
+        {"title": "Jenkins", "imageSrc": "assets/skills/jenkins.png"},
+        {"title": "Tableau", "imageSrc": "assets/skills/tableau.png"}
+      ]
+    }
+  ]
+}

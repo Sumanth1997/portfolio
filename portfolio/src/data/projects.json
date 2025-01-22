@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Airtable & Notion 4.0",
+    "imageSrc": "assets/projects/sweetwater.png",
+    "description": "This project was created to learn modern programming languages by improving the Sweetwater Music Center website, enhancing booking processes, and ensuring a seamless user experience for students.",
+    "skills": ["React.js", "Next.js", "NextAuth.js", "Node.js", "Microsoft Azure AD", "JavaScript", "Vercel", "GitHub", "Airtable"],
+    "demo": "https://github.com/Sumanth1997/smcWebsite",
+    "source": "https://github.com/Sumanth1997/smcWebsite"
+  },
+  {
+    "title": "DonsEats: On-Campus Food Ordering System",
+    "imageSrc": "assets/projects/donseats.png",
+    "description": "This project was built to enhance web development skills by creating a platform that simplifies on-campus food ordering, offering features like real-time tracking and scheduled pickups for a seamless dining experience.",
+    "skills": ["React.js", "Node.js", "Firebase", "Mocha", "Cypress", "Sass", "Render"],
+    "demo": "https://donseats-w5su.onrender.com/",
+    "source": "https://github.com/Sumanth1997/Group2_DonsEats_CS53700_FullStackWeb"
+  },
+  {
+    "title": "Chest X-ray Disease Classification Using Convolutional Neural Networks",
+    "imageSrc": "assets/projects/chest-xray.jpg",
+    "description": "Built a deep learning pipeline to classify chest X-rays into 14 disease categories using the NIH dataset, leveraging advanced techniques like custom CNNs, transfer learning, and data augmentation to enhance AI-driven healthcare diagnostics.",
+    "skills": ["Python", "TensorFlow", "Keras", "Image Classification"],
+    "demo": "https://github.com/Sumanth1997/chest_xray_classification",
+    "source": "https://github.com/Sumanth1997/chest_xray_classification"
+  },
+  {
+    "title": "PFW Question Answering System",
+    "imageSrc": "assets/projects/pfw-qa.jpg",
+    "description": "This project was created to explore natural language processing by developing a question-answering system using models like BERT, RoBERTa, and XLNet. It enhances user experience on university websites by accurately answering student queries about housing, amenities, and campus topics.",
+    "skills": ["Python", "TensorFlow", "PyTorch", "BERT", "RoBERTa", "XLNet", "Transformers", "NumPy", "Pandas"],
+    "demo": "https://github.com/Sumanth1997/NLP_Spring24",
+    "source": "https://github.com/Sumanth1997/NLP_Spring24"
+  },
+  {
+    "title": "QuestSpot: Docode the clues, decode the world",
+    "imageSrc": "assets/projects/questspot.jpg",
+    "description": "This project was designed to advance cross-platform development skills by building a multi-language Flutter-Firebase scavenger hunt app. Integrated Gemini AI to generate location-based clues, offering features like difficulty levels, game-sharing, bonus point analysis, heatmaps, and dark/light themes for Android and iOS.",
+    "skills": ["Dart", "Flutter", "NoSQL", "Google Cloud", "Firebase", "Android & iOS development"],
+    "demo": "https://github.com/Sumanth1997/GemAI_Dev",
+    "source": "https://github.com/Sumanth1997/GemAI_Dev"
+  }
+]

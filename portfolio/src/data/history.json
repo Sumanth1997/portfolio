@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "HCL Technologies Ltd.",
+    "startDate": "July, 2019",
+    "endDate": "Dec, 2023",
+    "experiences": ["Engineered and implemented an efficient process to temporarily hold incoming instructions for trade cancellation ensuring synchronization with trades reported to the clearing house and enhancing accuracy and compliance in trade management workflows", "Created automated code that systematically cancels trades exceeding a 30-day threshold, streamlining the process and ensuring efficient trade management.","Architected & implemented a robust solution to securely backup application data dumps by designing & developing a project that seamlessly transfers & stores the data in an AWS S3 bucket.","Orchestrated the seamless configuration of the IBM MQ Connection between SMAC & partner systems, establishing a reliable channel for the uninterrupted flow of messages, enabling efficient communication & collaboration between systems."],
+    "imageSrc": "assets/history/hcl.png"
+  },
+  {
+    "role": "Graduate Student Worker",
+    "organisation": "Purdue University Fort Wayne",
+    "startDate": "Sept, 2024",
+    "endDate": "Present",
+    "experiences": ["As the Students of Color Outreach Coordinator, I focus on fostering an inclusive community by directly engaging with and supporting students of color. My responsibilities include gathering and analyzing demographic data to better understand our student population, keeping campus communities informed by updating TV monitors with relevant content, and conducting outreach through emails and social media to ensure students of color feel connected, supported, and heard. Through these efforts, I strive to create an environment that embraces diversity and supports the unique experiences of every student."],
+    "imageSrc": "assets/history/pfw.png"
+  }
+]
