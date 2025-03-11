@@ -2,7 +2,7 @@
   {
     "title": "Airtable & Notion 4.0",
     "imageSrc": "assets/projects/sweetwater.png",
-    "description": "This project was created to learn modern programming languages by improving the Sweetwater Music Center website, enhancing booking processes, and ensuring a seamless user experience for students.",
+    "description": "Revamped the booking system for 200+ Music Education students on the Purdue Fort Wayne Sweetwater Music Center website, resolving 10+ critical bugs and improving scheduling efficiency.",
     "skills": ["React.js", "Next.js", "NextAuth.js", "Node.js", "Microsoft Azure AD", "JavaScript", "Vercel", "GitHub", "Airtable"],
     "demo": "https://github.com/Sumanth1997/smcWebsite",
     "source": "https://github.com/Sumanth1997/smcWebsite"
@@ -10,7 +10,7 @@
   {
     "title": "DonsEats: On-Campus Food Ordering System",
     "imageSrc": "assets/projects/donseats.png",
-    "description": "This project was built to enhance web development skills by creating a platform that simplifies on-campus food ordering, offering features like real-time tracking and scheduled pickups for a seamless dining experience.",
+    "description": "Created a web app enabling students to order food from on-campus restaurants, with features like real-time tracking and future pickup scheduling, improving both student dining experience and operational efficiency for restaurants.",
     "skills": ["React.js", "Node.js", "Firebase", "Mocha", "Cypress", "Sass", "Render"],
     "demo": "https://donseats-w5su.onrender.com/",
     "source": "https://github.com/Sumanth1997/Group2_DonsEats_CS53700_FullStackWeb"
@@ -18,7 +18,7 @@
   {
     "title": "Chest X-ray Disease Classification Using Convolutional Neural Networks",
     "imageSrc": "assets/projects/chest-xray.jpg",
-    "description": "Built a deep learning pipeline to classify chest X-rays into 14 disease categories using the NIH dataset, leveraging advanced techniques like custom CNNs, transfer learning, and data augmentation to enhance AI-driven healthcare diagnostics.",
+    "description": "Developed a deep learning pipeline to classify 100,000+ chest X-rays into 14 disease categories using VGG16, ResNet50, and MobileNetV2, achieving up to 92% accuracy and improving model performance with data aug- mentation.",
     "skills": ["Python", "TensorFlow", "Keras", "Image Classification"],
     "demo": "https://github.com/Sumanth1997/chest_xray_classification",
     "source": "https://github.com/Sumanth1997/chest_xray_classification"
@@ -26,7 +26,7 @@
   {
     "title": "PFW Question Answering System",
     "imageSrc": "assets/projects/pfw-qa.jpg",
-    "description": "This project was created to explore natural language processing by developing a question-answering system using models like BERT, RoBERTa, and XLNet. It enhances user experience on university websites by accurately answering student queries about housing, amenities, and campus topics.",
+    "description": "Deployed and fine-tuned a question-answering system for Purdue Fort Wayne’s website, leveraging NLP models (BERT, RoBERTa, XLNet) to handle 500+ campus-related queries with high accuracy.",
     "skills": ["Python", "TensorFlow", "PyTorch", "BERT", "RoBERTa", "XLNet", "Transformers", "NumPy", "Pandas"],
     "demo": "https://github.com/Sumanth1997/NLP_Spring24",
     "source": "https://github.com/Sumanth1997/NLP_Spring24"
