@@ -19,8 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Software Engineer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I am a software engineer with expertise in building scalable and efficient applications. My experience spans frontend and backend development, ensuring robust, optimized, and user-friendly solutions.
               </p>
             </div>
           </li>
@@ -29,8 +28,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full Stack Developer</h3>
               <p>
-              I develop and maintain high-quality software solutions using modern technologies and best practices.
-              </p>
+              I develop and maintain high-quality software solutions using modern technologies and best practices. My skill set covers frontend, backend, databases, and cloud services to create end-to-end applications. </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -38,8 +36,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Machine Learning Engineer</h3>
               <p>
-              I develop and implement machine learning models to solve complex problems and generate data-driven insights.
-              </p>
+              I develop and implement machine learning models to solve complex problems and generate data-driven insights. My expertise includes deep learning, NLP, and computer vision, leveraging frameworks like TensorFlow and PyTorch.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -47,8 +44,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Flutter Developer</h3>
               <p>
-              I create cross-platform mobile applications using Flutter, delivering performant and visually appealing user experiences.
-              </p>
+              I create cross-platform mobile applications using Flutter, delivering performant and visually appealing user experiences. My focus is on seamless UI/UX, efficient state management, and smooth app performance.</p>
             </div>
           </li>
         </ul>
