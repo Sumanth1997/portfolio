@@ -43,6 +43,8 @@
       "skills": [
         {"title": "Firebase", "imageSrc": "assets/skills/firebase.png"},
         {"title": "AWS S3", "imageSrc": "assets/skills/s3.png"},
+        {"title": "Amazon Opensearch", "imageSrc": "assets/skills/OpenSearch.png"},
+        {"title": "AWS Glue", "imageSrc": "assets/skills/Glue.png"},
         {"title": "Microsoft Azure AD", "imageSrc": "assets/skills/azure.png"},
         {"title": "Vercel", "imageSrc": "assets/skills/vercel.png"},
         {"title": "Git", "imageSrc": "assets/skills/git.png"},

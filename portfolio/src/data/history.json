@@ -1,5 +1,13 @@
 [
   {
+    "role": "Applied Scientist Intern",
+    "organisation": "New Territory Inc.",
+    "startDate": "May, 2025",
+    "endDate": "Present",
+    "experiences": ["Built a legal-domain chatbot using LLaMA 3.2 11B with Adaptive RAG architecture, enhancing transparency and reducing hallucinations by 70%.", "Engineered data pipelines using AWS Glue to ingest, clean, and prepare 500K+ legal documents, streamlining context-aware response generation.","Led evaluation and prompt tuning strategies, boosting factual accuracy by 35% across 10K+ legal Q&A interactions."],
+    "imageSrc": "assets/history/NewTerritoryInc.png"
+  },
+  {
     "role": "Software Engineer",
     "organisation": "HCL Technologies Ltd.",
     "startDate": "July, 2019",
