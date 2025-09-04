@@ -4,7 +4,7 @@
     "organisation": "New Territory Inc.",
     "startDate": "May, 2025",
     "endDate": "Present",
-    "experiences": ["Built a legal-domain chatbot using LLaMA 3.2 11B with Adaptive RAG architecture, enhancing transparency and reducing hallucinations by 70%.", "Engineered data pipelines using AWS Glue to ingest, clean, and prepare 500K+ legal documents, streamlining context-aware response generation.","Led evaluation and prompt tuning strategies, boosting factual accuracy by 35% across 10K+ legal Q&A interactions."],
+    "experiences": ["Built a domain-specific legal chatbot using LLaMA 3.2 11B with Adaptive RAG architecture, reducing hallucinations by 70% and delivering accurate, explainable responses for complex legal queries.", "Curated and processed large-scale legal documents to create instruction fine-tuning datasets, empowering LLMs to perform accurate, domain-specific reasoning at scale.","Engineered data pipelines using AWS Glue to ingest, clean, and prepare 500K+ legal documents, streamlining context-aware response generation.","Implemented multi-model inference and fine-tuning with LoRA and QLoRA, boosting performance of base LLaMA models on legal instruction tasks.","Integrated vector-based retrieval and hybrid search in OpenSearch for RAG pipelines, improving relevant context retrieval by 60%."],
     "imageSrc": "assets/history/NewTerritoryInc.png"
   },
   {
