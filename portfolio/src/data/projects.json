@@ -1,33 +1,68 @@
 [
   {
-    "title": "Airtable & Notion 4.0",
+    "title": "Sweetwater Music Center Scheduler Revamp",
     "imageSrc": "assets/projects/sweetwater.png",
-    "description": "Revamped the booking system for 200+ Music Education students on the Purdue Fort Wayne Sweetwater Music Center website, resolving 10+ critical bugs and improving scheduling efficiency.",
-    "skills": ["React.js", "Next.js", "NextAuth.js", "Node.js", "Microsoft Azure AD", "JavaScript", "Vercel", "GitHub", "Airtable"],
+    "description": "Led the full-stack re-engineering of the official room scheduling platform for the Purdue University Music Department, streamlining facility booking workflows for an active user base of 200+ students and faculty. Resolved critical data consistency anomalies and race conditions by implementing optimistic concurrency control and rigorous error handling, maintaining 100% data integrity and eliminating double-bookings during peak enrollment periods.",
+    "skills": [
+      "React (Hooks)",
+      "Node.js",
+      "Airtable API",
+      "Notion API",
+      "Jest",
+      "Cypress",
+      "GitHub Actions",
+      "CI/CD"
+    ],
     "demo": "https://github.com/Sumanth1997/smcWebsite",
     "source": "https://github.com/Sumanth1997/smcWebsite"
   },
   {
     "title": "DonsEats: On-Campus Food Ordering System",
     "imageSrc": "assets/projects/donseats.png",
-    "description": "Created a web app enabling students to order food from on-campus restaurants, with features like real-time tracking and future pickup scheduling, improving both student dining experience and operational efficiency for restaurants.",
-    "skills": ["React.js", "Node.js", "Firebase", "Mocha", "Cypress", "Sass", "Render"],
+    "description": "Architected an event-driven serverless platform designed to scale for a campus body of 5,000+ students, validating system stability under high-concurrency scenarios using Locust load testing frameworks. Optimized backend performance by decoupling order ingestion from notification services, achieving sub-200ms response times while handling 500+ requests per second during peak load simulations.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Firestore",
+      "Docker",
+      "GCP",
+      "Jest",
+      "Locust"
+    ],
     "demo": "https://donseats-w5su.onrender.com/",
     "source": "https://github.com/Sumanth1997/Group2_DonsEats_CS53700_FullStackWeb"
   },
   {
     "title": "Chest X-ray Disease Classification Using Convolutional Neural Networks",
     "imageSrc": "assets/projects/chest-xray.jpg",
-    "description": "Developed a deep learning pipeline to classify 100,000+ chest X-rays into 14 disease categories using VGG16, ResNet50, and MobileNetV2, achieving up to 92% accuracy and improving model performance with data aug- mentation.",
-    "skills": ["Python", "TensorFlow", "Keras", "Image Classification"],
+    "description": "Solved the challenge of multi-label classification on imbalanced chest X-ray datasets by leveraging an ensemble of CNN models fine-tuned with Optuna hyperparameter optimization, achieving a 25% accuracy improvement and real-time inference on AWS SageMaker. Improved clinical trust through Grad-CAM visualizations, providing interpretable diagnostic insights while enabling rapid, reliable disease detection for healthcare applications.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "AWS SageMaker",
+      "Optuna",
+      "Grad-CAM",
+      "CNN"
+    ],
     "demo": "https://github.com/Sumanth1997/chest_xray_classification",
     "source": "https://github.com/Sumanth1997/chest_xray_classification"
   },
   {
     "title": "PFW Question Answering System",
     "imageSrc": "assets/projects/pfw-qa.jpg",
-    "description": "Deployed and fine-tuned a question-answering system for Purdue Fort Wayne’s website, leveraging NLP models (BERT, RoBERTa, XLNet) to handle 500+ campus-related queries with high accuracy.",
-    "skills": ["Python", "TensorFlow", "PyTorch", "BERT", "RoBERTa", "XLNet", "Transformers", "NumPy", "Pandas"],
+    "description": "Engineered a multi-transformer ensemble combining BERT, RoBERTa, and XLNet, fine-tuned on a large domain-specific FAQ dataset, boosting question understanding accuracy to 92 F1-score and 88% exact match, addressing complex query interpretation challenges. Enhanced system responsiveness through quantization and asynchronous batching, delivering responses in under 150 milliseconds, fully integrated into the university portal to improve student engagement and support efficiency.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "BERT",
+      "RoBERTa",
+      "XLNet",
+      "Transformers",
+      "Quantization"
+    ],
     "demo": "https://github.com/Sumanth1997/NLP_Spring24",
     "source": "https://github.com/Sumanth1997/NLP_Spring24"
   },
@@ -35,7 +70,14 @@
     "title": "QuestSpot: Docode the clues, decode the world",
     "imageSrc": "assets/projects/questspot.jpg",
     "description": "This project was designed to advance cross-platform development skills by building a multi-language Flutter-Firebase scavenger hunt app. Integrated Gemini AI to generate location-based clues, offering features like difficulty levels, game-sharing, bonus point analysis, heatmaps, and dark/light themes for Android and iOS.",
-    "skills": ["Dart", "Flutter", "NoSQL", "Google Cloud", "Firebase", "Android & iOS development"],
+    "skills": [
+      "Dart",
+      "Flutter",
+      "NoSQL",
+      "Google Cloud",
+      "Firebase",
+      "Android & iOS development"
+    ],
     "demo": "https://github.com/Sumanth1997/GemAI_Dev",
     "source": "https://github.com/Sumanth1997/GemAI_Dev"
   }
