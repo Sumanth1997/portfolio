@@ -19,32 +19,16 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Software Engineer</h3>
               <p>
-              I am a software engineer with expertise in building scalable and efficient applications. My experience spans frontend and backend development, ensuring robust, optimized, and user-friendly solutions.
+                I am a software engineer with expertise in building scalable and efficient applications. My experience spans frontend and backend development, ensuring robust, optimized, and user-friendly solutions.
               </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src="assets/about/web-developer.png" alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Full Stack Developer</h3>
-              <p>
-              I develop and maintain high-quality software solutions using modern technologies and best practices. My skill set covers frontend, backend, databases, and cloud services to create end-to-end applications. </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src="assets/about/deep-learning.png" alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Machine Learning Engineer</h3>
+              <h3>AI Engineer</h3>
               <p>
-              I develop and implement machine learning models to solve complex problems and generate data-driven insights. My expertise includes deep learning, NLP, and computer vision, leveraging frameworks like TensorFlow and PyTorch.</p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src="assets/about/FlutterIconv2.png" alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Flutter Developer</h3>
-              <p>
-              I create cross-platform mobile applications using Flutter, delivering performant and visually appealing user experiences. My focus is on seamless UI/UX, efficient state management, and smooth app performance.</p>
+                I design and deploy advanced AI systems, specializing in LLMs, RAG architectures, and agentic workflows. I leverage frameworks like PyTorch and tools like LangChain to build intelligent, production-grade solutions.</p>
             </div>
           </li>
         </ul>

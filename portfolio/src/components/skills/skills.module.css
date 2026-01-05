@@ -56,8 +56,16 @@
   height: 90px; /* Reduce size slightly */
 }
 
-.skillImageContainer img {
+.skillImageContainer img,
+.skillImageContainer svg {
   width: 60px; /* Reduce size slightly */
+  height: 60px;
+  color: var(--color-text); /* Or specific color if needed */
+}
+
+.placeholderIcon {
+    font-size: 40px;
+    color: var(--color-text);
 }
 
 .skill p {

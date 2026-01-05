@@ -1,29 +1,29 @@
 [
   {
-    "role": "Software Engineer",
+    "role": "AI Engineer",
     "organisation": "New Territory Inc.",
-    "startDate": "May, 2025",
+    "startDate": "May 2025",
     "endDate": "Present",
     "experiences": [
-      "Engineered high-concurrency backend services to orchestrate data flows between third-party APIs and internal data stores, optimizing retrieval logic to cut average query latency from 1.2 seconds to 480ms.",
-      "Designed and implemented a scalable search infrastructure handling 25,000+ documents, optimizing database indexing and vector storage strategies to maintain sub-450ms response times for production traffic.",
-      "Built automated MLOps pipelines on AWS SageMaker to fine-tune Llama foundation models using QLoRA, reducing GPU memory usage by 14GB while adapting models to 45,000+ datasets.",
-      "Developed a comprehensive automated testing suite to benchmark system reliability, eliminating 40+ potential production regressions prior to deployment through rigorous acceptance testing.",
-      "Engineered a secure multi-tenant provisioning system using AWS S3 and Bedrock to successfully onboard 20 lawyers, automating resource allocation to slash setup time from 20 minutes to under 5 seconds while enforcing strict data isolation."
+      "Developed a production-grade AI platform utilizing Agentic RAG and MCP servers to orchestrate autonomous retrieval and reasoning across distributed knowledge bases, reducing manual legal research cycles by 60%.",
+      "Built knowledge base infrastructure for 25,000+ documents, optimizing intelligent chunking, embedding generation, and vector storage to sustain sub-450ms p95 latency under high-concurrency workloads.",
+      "Fine-tuned LLaMA models using LoRA on AWS SageMaker, leveraging a custom dataset of 45,000+ instructions to achieve significant improvements in domain-specific reasoning and legal task accuracy.",
+      "Engineered a secure multi-tenant architecture with strict vector space isolation and RBAC; implemented an LLM evaluation framework measuring 9 dimensions (including faithfulness and coherence) to ensure deployment-quality outputs.",
+      "Developed a proactive NLP-driven alerting system using semantic analysis to evaluate jurisdictional regulatory changes in real-time, reducing missed compliance updates by 70% for active legal matters."
     ],
     "imageSrc": "assets/history/NewTerritoryInc.png"
   },
   {
     "role": "Software Engineer",
     "organisation": "HCL Technologies Ltd.",
-    "startDate": "July, 2019",
-    "endDate": "Dec, 2023",
+    "startDate": "Jul. 2019",
+    "endDate": "Dec. 2023",
     "experiences": [
-      "Developed a trade reconciliation engine to automatically synchronize internal ledgers with external clearing house reports, programmatically resolving data discrepancies and eliminating 100+ annual compliance breaks.",
-      "Engineered an automated lifecycle management service that identifies and purges stale transactions exceeding 30 days via asynchronous background processing, reducing manual audit overhead by 75% while maintaining strict regulatory logs.",
-      "Architected a hybrid-cloud disaster recovery solution, migrating 500GB/month of on-prem financial records to AWS S3 with lifecycle policies, ensuring 99.99% data durability and meeting 14-year retention compliance standards.",
-      "Implemented a distributed messaging layer using IBM MQ to decouple the SMAC monolith from 5 external banking partners, increasing message throughput and achieving 99.8% system availability.",
-      "Refactored legacy transaction processing modules to support multi-currency architecture including GBP and EUR, enabling global market expansion and facilitating 12,000+ additional annual cross-border settlements."
+      "Designed a process to hold trade cancellations, ensuring sync with clearing house reports, eliminating 100+ discrepancies annually, and enhancing compliance.",
+      "Built a self-monitoring script to auto-cancel trades exceeding 30 days, reducing manual workload by 75% and ensuring compliance with detailed audit logs.",
+      "Engineered a secure data backup pipeline, transferring 500GB of critical data monthly to AWS S3, cutting disaster recovery time by 60%, and ensuring 14-year secure storage for audits and investigations.",
+      "Configured IBM MQ connections between SMAC and 5+ partner systems, improving message transmission reliability to 99.8% uptime, minimizing data loss, and ensuring seamless trade processing.",
+      "Optimized the codebase to integrate Pound Sterling and Euro into corporate actions, enabling 1,000+ additional transactions monthly and expanding currency handling."
     ],
     "imageSrc": "assets/history/hcl.png"
   },
