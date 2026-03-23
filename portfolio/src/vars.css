@@ -1,11 +1,59 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  /* ── Core Backgrounds (Stitch "Neural Architect" surface hierarchy) ── */
+  --color-bg:               #10141a;  /* The void — page background */
+  --color-bg-surface:       #181c22;  /* Card backgrounds */
+  --color-bg-elevated:      #1c2026;  /* Elevated cards / hover targets */
+  --color-bg-high:          #262a31;  /* Highest elevation */
+  --color-bg-bright:        #353940;  /* Floating glass elements */
 
-  /* Fonts */
-  --font-roboto: "Roboto";
+  /* ── Borders ── */
+  --color-border:           rgba(59, 74, 71, 0.5);   /* Ghost border — structural */
+  --color-border-hover:     rgba(72, 246, 228, 0.5); /* Cyan glow on hover */
+
+  /* ── Accent Colors ── */
+  --color-primary:          #48f6e4;  /* Electric cyan — action & logic */
+  --color-primary-dim:      #00d9c8;  /* Deeper cyan — containers/CTA bg */
+  --color-secondary:        #6001d1;  /* Violet container — AI/ML badge bg */
+  --color-secondary-text:   #d2bbff;  /* Violet text — AI/ML labels */
+  --color-tertiary:         #ffb24e;  /* Amber — metadata / tertiary accents */
+
+  /* ── Text ── */
+  --color-text:             #dfe2eb;  /* on_surface — primary text */
+  --color-text-muted:       #bacac6;  /* on_surface_variant — secondary text */
+  --color-text-accent:      #48f6e4;  /* Cyan — links, labels, highlights */
+
+  /* ── Glow / Shadow ── */
+  --glow-primary:           rgba(0, 217, 200, 0.08);
+  --glow-primary-strong:    rgba(72, 246, 228, 0.15);
+  --glow-secondary:         rgba(96, 1, 209, 0.12);
+  --shadow-bloom:           0 20px 40px rgba(0, 217, 200, 0.05);
+
+  /* ── Typography ── */
+  --font-sans:              "Inter", system-ui, -apple-system, sans-serif;
+  --font-label:             "Space Grotesk", "Inter", sans-serif;
+  --font-mono:              "JetBrains Mono", "Fira Code", "Courier New", monospace;
+
+  /* ── Type Scale ── */
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   20px;
+  --text-2xl:  24px;
+  --text-3xl:  30px;
+  --text-4xl:  36px;
+  --text-5xl:  48px;
+  --text-hero: 68px;
+
+  /* ── Border Radius ── */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-pill: 100px;
+
+  /* ── Transitions ── */
+  --ease-premium: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }

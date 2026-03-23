@@ -2,88 +2,106 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
+  z-index: 1;
+  position: relative;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-family: var(--font-label);
+  font-weight: 600;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .content {
-  display: grid;  /* Or flex, depending on desired layout */
-  justify-content: flex-start; /* Adjust as needed */
-  margin-top: 14px;
-  gap: 2rem; /* Add some spacing between categories */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
-.category {
-  /* Styles for each skill category container (if needed) */
+.categoryContainer {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  transition: border-color var(--transition-base);
+}
+
+.categoryContainer:hover {
+  border-color: rgba(59, 74, 71, 0.8);
+}
+
+.categoryContainerAi {
+  border-left: 3px solid var(--color-secondary-text);
+}
+
+.categoryContainerAi:hover {
+  border-color: rgba(209, 187, 255, 0.4);
 }
 
 .categoryTitle {
-  font-size: 28px; /* Or adjust as needed */
-  margin-bottom: 1rem; /* Add spacing below the title */
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-accent);
+  margin-bottom: 14px;
 }
 
+.categoryTitleAi {
+  color: var(--color-secondary-text);
+}
 
 .categorySkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem; /* Adjust spacing between skills */
+  gap: 6px;
 }
 
 .skill {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.75rem; /* Reduce gap slightly */
-  min-width: 120px; /* Or specify a fixed width if preferred */
 }
 
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90px; /* Reduce size slightly */
-  height: 90px; /* Reduce size slightly */
+.skillPill {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  white-space: nowrap;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
 }
 
-.skillImageContainer img,
-.skillImageContainer svg {
-  width: 60px; /* Reduce size slightly */
-  height: 60px;
-  color: var(--color-text); /* Or specific color if needed */
+.skillPill:hover {
+  color: var(--color-text);
+  border-color: rgba(59, 74, 71, 0.8);
 }
 
-.placeholderIcon {
-    font-size: 40px;
-    color: var(--color-text);
+@media screen and (max-width: 1200px) {
+  .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
-.skill p {
-  font-size: 20px; /* Reduce size slightly */
-  font-family: var(--font-roboto);
-  font-weight: 500;
-  text-align: center; /* Center the text */
-}
-
-
 
 @media screen and (max-width: 830px) {
   .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .categorySkills {
-    justify-content: center; /* Center skills on smaller screens */
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    grid-template-columns: 1fr;
   }
 }

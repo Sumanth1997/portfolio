@@ -3,63 +3,113 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
+  z-index: 1;
+  position: relative;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-family: var(--font-label);
+  font-weight: 600;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 20px; /* Add some space below the title */
+  margin-bottom: 32px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  gap: 40px; /* Spacing between education items */
+  gap: 20px;
 }
 
 .educationItem {
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  transition: border-color var(--transition-base), transform var(--transition-base), box-shadow var(--transition-base);
 }
 
-.educationDetails {
-  font-family: var(--font-roboto);
+.educationItem:hover {
+  border-color: var(--color-border-hover);
+  transform: translateX(4px);
+  box-shadow: var(--shadow-bloom);
 }
 
 .educationDetails h3 {
-  font-size: 30px;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.degreeRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.degree {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.duration {
+  font-family: var(--font-label);
+  font-size: var(--text-sm);
   font-weight: 500;
-  margin-bottom: 5px; /* Add space below university name */
+  color: var(--color-text-muted);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 2px 12px;
 }
 
 .location {
-  font-size: 20px;  /* Slightly smaller font size for location */
-  margin-bottom: 10px; /* Add space below the location */
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
 }
 
-.educationDetails p {
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 10px; /* Add space below degree/duration */
+.courseworkTitle {
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 10px;
 }
 
-.educationDetails ul {
-  list-style-type: disc;
-  margin-left: 20px; /* Indent the list items */
-  font-size: 18px; /* Smaller font size for course list */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
+.course {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 12px;
+}
 
 @media screen and (max-width: 830px) {
-  .content {
-    align-items: center; /* Center content on smaller screens */
+  .degreeRow {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

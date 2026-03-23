@@ -35,31 +35,23 @@ export const Education = () => {
   return (
     <div className={styles.container} id="education">
       <h2 className={styles.title}>Education</h2>
-      
+
       <div className={styles.content}>
-        
         {educationData.map((item, index) => (
-          
           <div key={index} className={styles.educationItem}>
             <div className={styles.educationDetails}>
               <h3>{item.university}</h3>
-              
               <p className={styles.location}>{item.location}</p>
-              <p>
-                <strong>{item.degree}</strong> | {item.duration}
-              </p>
-              <div> {/* Relevant Coursework Container */}
-                <p className={styles.courseworkTitle}>Relevant Coursework:</p>
-                <div className={styles.courses}>
-                  {item.courses.map((course, cIndex) => (
-                    <span key={cIndex} className={styles.course}>
-                      {course}
-                      {cIndex < item.courses.length - 1 && ", "}
-                    </span>
-                  ))}
-                </div>
+              <div className={styles.degreeRow}>
+                <span className={styles.degree}>{item.degree}</span>
+                <span className={styles.duration}>{item.duration}</span>
               </div>
-
+              <p className={styles.courseworkTitle}>Relevant Coursework</p>
+              <div className={styles.courses}>
+                {item.courses.map((course, cIndex) => (
+                  <span key={cIndex} className={styles.course}>{course}</span>
+                ))}
+              </div>
             </div>
           </div>
         ))}
