@@ -28,7 +28,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>AI Engineer</h3>
               <p>
-                I design and deploy advanced AI systems, specializing in LLMs, RAG architectures, and agentic workflows. I leverage frameworks like PyTorch and tools like LangChain to build intelligent, production-grade solutions.</p>
+                I design and deploy advanced AI systems specializing in autonomous AI Agents, multi-agent orchestration, and agentic RAG pipelines. I build production-grade agents using LangGraph, Google ADK, CrewAI, and MCP — enabling systems that reason, plan, and act independently across complex workflows.</p>
             </div>
           </li>
         </ul>

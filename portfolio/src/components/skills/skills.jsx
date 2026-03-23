@@ -1,7 +1,7 @@
 import skillsData from '../../data/skills.json';
 import styles from './skills.module.css';
 
-const AI_CATEGORIES = ["AI & LLM Engineering", "Distributed Training & Inference", "Frameworks & ML"];
+const AI_CATEGORIES = ["AI & LLM Engineering", "Agentic AI", "Distributed Training & Inference", "Frameworks & ML"];
 
 export const Skills = () => (
   <section className={styles.container} id="skills">

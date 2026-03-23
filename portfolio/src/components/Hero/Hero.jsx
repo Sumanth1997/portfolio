@@ -19,13 +19,6 @@ export const Hero = () => {
             Get In Touch
           </a>
         </div>
-        <div className={styles.techBadges}>
-          <span className={styles.techBadge}>PyTorch</span>
-          <span className={styles.techBadge}>LangChain</span>
-          <span className={styles.techBadge}>AWS SageMaker</span>
-          <span className={styles.techBadge}>RAG Architecture</span>
-          <span className={styles.techBadge}>LangGraph</span>
-        </div>
       </div>
       <div className={styles.heroImgWrapper}>
         <img

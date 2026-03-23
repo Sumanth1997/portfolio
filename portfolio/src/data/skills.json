@@ -73,6 +73,22 @@
       ]
     },
     {
+      "name": "Agentic AI",
+      "skills": [
+        { "title": "Google ADK" },
+        { "title": "AutoGen / AG2" },
+        { "title": "OpenAI Agents SDK" },
+        { "title": "Pydantic AI" },
+        { "title": "Agno" },
+        { "title": "Smolagents" },
+        { "title": "MCP (Model Context Protocol)" },
+        { "title": "Tool Calling & Function Calling" },
+        { "title": "Agentic RAG" },
+        { "title": "LangSmith" },
+        { "title": "Multi-Agent Orchestration" }
+      ]
+    },
+    {
       "name": "Frameworks & ML",
       "skills": [
         {
